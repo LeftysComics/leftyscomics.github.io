@@ -1,0 +1,88 @@
+<html>
+	<head>
+		<title>Monna & Larry</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="flowtype.js"></script>
+<script type="text/javascript" src="scroll.js"></script>
+<script type="text/javascript" src="jquery-1.11.1.min.js"></script>
+<script src="jquery.cookie.js"></script>
+        <style type="text/css" >
+            body {
+                background-color: #000000;
+                font-family: Arial, Helvetica;
+                color: #999999;
+                font-size: 14px;
+            }
+            a {
+                color: #7A7A7A;
+            }
+            img.ri {
+                display: block;
+                //position: absolute;
+                max-width: 100%;
+                max-height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: 0 auto;
+                padding-top: 30px;
+                //border: yellow solid thin;
+            }
+            .container {
+                max-width: 1280px;
+                //width: auto;
+                margin: auto;
+                //border: white solid thin;
+            }
+            .footer {
+                padding-left: 10%;
+                //padding-right: 10%;
+                //border: red solid thin;
+            }
+        </style>
+	</head>
+	<body>
+	<center>
+            <p>
+                <a href="http://darkshikar.net/">Darkshikar Home</a> | <b><a href="1">Monna & Larry</a></b>
+            </p>
+    </center>
+		<center>
+		<div class="container">
+			<img class="ri" src="tt.png" alt="" />
+		</center>
+		<center><h1>Chapter 1 - The Big City</h1></center>
+		<div class="container">
+            <img class="ri" src="Comic2.png" alt="" />
+		<center>
+		<div id="links" style="z-index:4;position:relative;top:0px;">
+		<div id="cookieCutter" style="height:0;width:0;overflow:hidden;">&nbsp;</div>
+			<h2 class="pagenum" style="color:#ceb3b3;">   002 </h2>
+			<input value='001' type='hidden' id='prevPage'> 
+			<a href="1"><img src="back.png" style="cursor:pointer" onClick="navClick('prev');"></a>
+			<a href="3"><img src="next.png" style="cursor:pointer" onClick="navClick('next');"></a>
+			<input value='002' type='hidden' id='nextPage'>
+			<div id="book2BottomGoog" style="margin-top:6px;">
+			</div>
+		</center>			
+            <p class="footer">Official social media - Twitter: <a target="_blank" href="https://twitter.com/LeftysComics">@LeftysComics</a>,
+                Facebook: <a target="_blank" href="https://www.facebook.com/monnaandlarry/">Monna & Larry</a>, 
+                and the YouTube: <a target="_blank" href="https://www.youtube.com/channel/UC0-CsgFQdQfHN8n8b7xDl1g">Lefty's Comics & Animations</a>.
+                For Questions and Fanmail, please write to: 
+                <a target="_blank" href="mailto:support@darkshikar.net">support@darkshikar.net</a>
+            </p>
+        </div>
+        <script>
+        $('body').flowtype({
+        minimum : 500,
+         maximum : 1200,
+         minFont   : 12,
+         maxFont   : 14,
+         fontRatio : 30
+        });
+        </script>
+
+	</body>
+</html>
