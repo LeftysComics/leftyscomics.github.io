@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <title>Lefty's Comics!</title>
+        <link rel='shortcut icon' href='favicon.ico' type='image/x-icon' />
+        <meta charset="UTF-8" />
+        <meta name="" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
+        <script src="flowtype.js"></script>
+        <style type="text/css" >
+            body {
+                background-color: #f8f8f8;
+                font-family: Arial, Helvetica;
+                color: #999999;
+                font-size: 12px;
+            }
+            a {
+                color: #7A7A7A;
+            }
+            img.ri {
+                display: block;
+                //position: absolute;
+                max-width: 100%;
+                max-height: 100%;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: 0 auto;
+                //border: yellow solid thin;
+            }
+            .header {
+                position: fixed;
+                top: 0;
+                width: 998px;
+                margin: 0;
+                background: "";
+                height:100px;
+                left: 50%;
+                margin-left: -499px;       
+            }
+            .container {
+                max-width: 1280px;
+                //width: auto;
+                margin: auto;
+                //border: white solid thin;
+            }
+            .footer {
+                padding-left: 10%;
+                //padding-right: 10%;
+                //border: red solid thin;
+            }
+	    .img-wrap, h1{
+		text-align: center;
+	    }
+	    .img-wrap a img{
+	 	display:block;
+	    }
+	    .img-wrap > a{
+	 	display:inline-block;
+	 	vertical-align: middle;
+	 	border: 0px solid #000
+            }
+        </style>
+	<div class="img-wrap">
+			<a href="monna/1"><img class="ri" src="mnlbutton1.png" alt="" height="100" width="214"></a>
+			<a href=""><img class="ri" src="lcnoban.png" alt="" height="150" width="320"></a>
+	        	<a href="support"><img class="ri" src="shopbutton1.png" alt="" height="100" width="214"></a>
+	</div>
+	<div class="img-wrap">
+		<img class="ri" src="JokersMasks.png" alt="Comic of the Day" height="720" width="720">
+	</div>
+    </head>
+		<center>
+		<div id="links" style="z-index:4;position:relative;top:0px;">
+		<div id="cookieCutter" style="height:0;width:0;overflow:hidden;">&nbsp;</div>
+			<h2 class="pagenum" style="color:#850000;">   Ryuji's Timing (and his Fat Mouth) </h2>
+			<input value='001' type='hidden' id='prevPage'> 
+			<a href="index"><img src="back.png" style="cursor:pointer" onClick="navClick('prev');"></a>
+			<a href=""><img src="nonext.png" style="cursor:pointer" onClick="navClick('next');"></a>
+			<input value='002' type='hidden' id='nextPage'>
+			<div id="book2BottomGoog" style="margin-top:6px;">
+			</div>
+		</center>
+    <body >
+        <div class="contianer">
+            <img class="ri" src="" alt="" />
+            <p class="footer">Twitter: <a target="_blank" href="https://twitter.com/LeftysComics">@LeftysComics</a>,
+                Facebook: <a target="_blank" href="https://www.facebook.com/monnaandlarry/">Monna and Larry page</a>, 
+                YouTube: <a target="_blank" href="https://www.youtube.com/channel/UC0-CsgFQdQfHN8n8b7xDl1g">Lefty's Comics and Animations</a>, 
+                Here for prints? <a target="_blank" href="https://www.etsy.com/people/LeftysComics">Lefty's Comics Print Shop</a>, 
+                and if you can, support me on Patreon!: <a target="_blank" href="https://www.patreon.com/LeftysComics">LeftysComics</a>. 
+                Thank you for visiting my site and checking out what I do. It's always apreciated. -♡ Lefty
+            </p>
+        </div>
+        <script>
+        $('body').flowtype({
+        minimum : 500,
+         maximum : 1200,
+         minFont   : 12,
+         maxFont   : 14,
+         fontRatio : 30
+        });
+        </script>
+</body>
